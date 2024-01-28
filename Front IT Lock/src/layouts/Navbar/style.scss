@@ -1,0 +1,75 @@
+.navbar {
+  width: 100%;
+  height: 10vh;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gainsboro;
+  .logo {
+    width: 160px;
+    img {
+      width: 100%;
+    }
+  }
+  .menu {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      li {
+        a {
+          color: #003072;
+          transition: all 700ms;
+          font-size: 17px;
+          &:hover {
+            color: #316ec2;
+          }
+        }
+        .active {
+            color: #316ec2;
+        }
+      }
+    }
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    button {
+      border: 2px solid #316ec2;
+      background-color: white;
+      color: #316ec2;
+      padding: 10px 15px;
+      font-size: 17px;
+      font-weight: 700;
+      transition: all 700ms;
+      cursor: pointer;
+      &:hover {
+        background-color: #316ec2;
+        color: white;
+      }
+    }
+    .question {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      .fa-headphones {
+        font-size: 30px;
+        color: #313131;
+      }
+      .number {
+        line-height: 26px;
+        p {
+          color: gray;
+        }
+        h4 {
+          color: #003072;
+        }
+      }
+    }
+  }
+}

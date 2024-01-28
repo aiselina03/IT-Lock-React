@@ -1,0 +1,44 @@
+.basketContainer {
+  width: 70%;
+  margin: 40px auto;
+  .basket {
+    font-family: sans-serif;
+    width: 100%;
+    min-height: 70vh;
+    table {
+      width: 90%;
+      border: 1px solid gray;
+      text-align: center;
+      img {
+        width: 200px;
+      }
+      button {
+        border: 2px solid #316ec2;
+        background-color: #316ec2;
+        padding: 10px 15px;
+        font-size: 15px;
+        color: white;
+        transition: all 700ms;
+        &:hover {
+          background-color: #2861b0;
+          border: 2px solid#2861b0;
+        }
+      }
+      .fa-solid {
+        color: #2861b0;
+        cursor: pointer;
+      }
+    }
+    th,
+    td {
+      padding: 6px;
+      border: 1px solid gray;
+    }
+    .total {
+      margin-top: 30px;
+      h2 {
+        color: #2861b0;
+      }
+    }
+  }
+}
